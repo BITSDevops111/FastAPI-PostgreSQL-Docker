@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.14.0a3
 WORKDIR /usr/src/personalised_nudges
 COPY ./app ./app
 COPY requirements.txt requirements.txt
